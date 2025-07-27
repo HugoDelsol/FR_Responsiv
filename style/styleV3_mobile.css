@@ -6,7 +6,7 @@
     }
 
     .backGroundPicture {
-        background-position: top 18em right -6em;
+        background-position: top 14em right -6em;
         background-size: 26em;
         opacity: 0.9;
     }
@@ -32,11 +32,15 @@
     }
 
     .headerResponsiv img {
-        margin: 0.6em 1.6em;
+        margin: 0.2em 0.8em;
     }
 
     .menuBurger {
-        height: 1.6em;
+        height: 1.2em;        
+    }
+
+    .iconHeaderResponsiv {
+        height: 2.8em;
     }
 
     .btnPrimary {
@@ -50,35 +54,33 @@
     /***********************************************/
 
     .heroSection {
-        padding-top: 6em;
+        padding-top: 4em;
         margin: 0 0.8em;
     }
 
     .heroSection h1 {
-        font-size: 2em;
+        font-size: 1.8em;
         font-weight: 900;
-
     }
 
     .heroSection .title h2 span {
-        font-size: 0.6em;
-        font-weight: 400;
-
+        font-size: 20px;
+        font-weight: 400;        
     }
 
     .heroSection .title h2 {
-        line-height: 24px;
+        line-height: 16px;
     }
 
     .heroSection .title h3 {
-        margin-top: 0.4em;
-        font-size: 1.2em;
+        margin-top:1em;
+        font-size: 1em;
         font-weight: 100;
         width: 90%;
     }
 
     .buttonTitleMarginTop {
-        margin-top: 0.8em;
+        margin-top: 1em;
     }
 
     .statistics {
@@ -92,7 +94,6 @@
     .borderStat {
         border: none;
         padding: 0.8em;
-
     }
 
     .marginResponsiv {
@@ -111,10 +112,10 @@
 
     .btnReserch {
         margin: 2em 0.8em;
-        border-radius: 0.8em;
-        font-size: 1.2em;
-        padding: 0.6em;
+        border-radius: 0.6em;
+        font-size: 1.3em;
         text-align: center;
+        width: 100% ;
     }
 
     .btnReserch img {
@@ -164,8 +165,6 @@
 
     /************************/
 
-
-
     .aboutTxt {
         margin: auto;
         width: 80%;
@@ -198,7 +197,6 @@
     }
 
     .aboutPictures {
-
         margin-bottom: 14em;
     }
 
@@ -215,7 +213,6 @@
     }
 
     .contact h3 {
-
         font-size: 1.6em;
         padding: 1.4em 0;
         top: -2.4em;
@@ -239,9 +236,7 @@
         margin: 2em 0;
     }
 
-
     /**************/
-
 
     .reviews h2 {
         font-size: 1.6em;
@@ -280,10 +275,9 @@
 @media all and (max-width: 380px) {
 
     .backGroundPicture {
-        background-position: top 20em right -6.6em;
+        background-position: top 16em right -6.6em;
         background-size: 24em;
     }
-
 }
 
 @media all and (max-width: 375px) {
@@ -296,7 +290,6 @@
     .heroSection h1 {
         font-size: 1.8em;
         font-weight: 900;
-
     }
 
 

@@ -3,7 +3,7 @@
 * {
     margin: 0;
     color: rgb(15, 28, 63);
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
@@ -54,10 +54,6 @@ span {
     transform: scale(1.1);
 }
 
-hr {
-    opacity: 0;
-}
-
 .txtModH2 {
     font-size: 3.4em;
     font-style: italic;
@@ -66,13 +62,11 @@ hr {
     font-weight: 400;
 }
 
-
 .line {
     position: relative;
     border-bottom: 0.2em solid #F28B50;
     border-radius: 4em;
 }
-
 
 .displayResponsivMobile {
     display: none;
@@ -159,8 +153,6 @@ hr {
 }
 
 /*------------------*/
-
-
 
 /***HEADER***/
 
@@ -296,11 +288,12 @@ header img {
 }
 
 .widthBtnMission {
+    display: flex;
+    justify-content: center;
     margin-right: 2em;
     width: 18%;
     text-align: center;
     font-size: 1em;
-
 }
 
 .lineMissions {
@@ -333,17 +326,17 @@ header img {
     font-size: 1.6em;
 }
 
-.aboutLine {    
+.aboutLine {
     margin: 2.8em 0;
-    
-    width: 38%;    
+
+    width: 38%;
 }
 
 .aboutPictures {
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
     margin-bottom: 18em;
 }
 
@@ -374,9 +367,9 @@ header img {
 }
 
 form {
-    background: linear-gradient(to right, rgba(249, 207, 128, 0.8), rgba(212, 163, 115, 0.2));
+    background: linear-gradient(to top, rgba(249, 207, 128, 0.8), rgba(212, 163, 115, 0.2));
     padding-bottom: 2em;
-    border-radius: 0.8em;    
+    border-radius: 0.8em;
     margin-top: -6em;
 }
 
