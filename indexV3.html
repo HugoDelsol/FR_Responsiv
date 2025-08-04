@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="style/styleV3_mobile.css">
     <link rel="stylesheet" href="style/styleV3_tablet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -25,23 +27,33 @@
     <div class="backGroundCard aboutCardPictureOne"></div>
     <div class="backGroundCard aboutCardPictureTwo"></div>
     <div class="backGroundCard aboutCardPictureThree"></div>
-    <div class="backGroundCard"></div>
-    <div class="backGroundCard"></div>
-    <div class="backGroundCard"></div>
     <!-- -->
     <header class="displayDesktop hiddenTablet">
         <a href="#scrolleHeroSection"><img src="./pictures/Logo V2/ampoule.png" alt="Picture"></a>
         <nav>
             <a href="#scrolleMission">Missions</a>
-            <a href="#scrolleAboutSection">A propos</a>
+            <a href="#scrolleAboutSection">À propos</a>
             <a href="#scrolleContact">Contact et avis</a>
             <a href="">Devenir <span>bénévole</span></a>
         </nav>
     </header>
     <header class="displayResponsivMobile headerResponsiv">
         <a href=""><img class="iconHeaderResponsiv" src="./pictures/Logo V2/ampoule.png" alt="Picture"></a>
-        <a href=""><img class="menuBurger" src="./pictures/iconHeader-Footer/menuBurger.png" alt=""></a>
+        <img class="menuBurger" src="./pictures/iconHeader-Footer/menuBurger.png" alt="">
+        <img class="menuBurgerCross" src="./pictures/iconHeader-Footer/crossList.png" alt="">
     </header>
+
+    <div>
+        <ul class="hiddenList">            
+            <div>
+                <li><a href="" class="btnPrimary">Accueille</a></li>
+                <li><a href="" class="btnPrimary">Devenir bénévole</a></li>
+                <li><a href="" class="btnPrimary">Toutes nos missions</a></li>
+                <li><a href="" class="btnPrimary">Se connecter</a></li>
+            </div>
+        </ul>
+    </div>
+
     <!--  -->
     <main class="container">
         <!--  -->
@@ -67,15 +79,15 @@
                 <div class="statistics">
                     <div class="marginResponsiv">
                         <h2><span>76</span></h2>
-                        <h3>MISSIONS <br>ACCOMPLIES</h3>
+                        <h3>MISSIONS<br>ACCOMPLIES</h3>
                     </div>
                     <div class="borderStat">
                         <h2><span>251</span></h2>
-                        <h3>BÉNÉVOLES <br>PARTICIPANTS</h3>
+                        <h3>BÉNÉVOLES<br>ACTIFS</h3>
                     </div>
                     <div class="marginResponsiv">
                         <h2><span>36</span></h2>
-                        <h3>PARTENAIRES <br> ENGAGÉS</h3>
+                        <h3>PARTENAIRES<br>ENGAGÉS</h3>
                     </div>
                 </div>
                 <div class="justifyContent">
@@ -155,17 +167,17 @@
                 </p>
                 <div class="line aboutLine"></div>
             </div>
-            
+
             <div class="aboutPictures">
                 <div class="aboutPictureAndName">
                     <img src="./pictures/Clara D.png" alt="">
                     <h3>Claire Mounier</h3>
-                    <p>Présidente fondatrice</p>                    
+                    <p>Présidente fondatrice</p>
                 </div>
                 <div class="aboutPictureAndName displayDesktop">
                     <img src="./pictures/Samira B.png" alt="">
                     <h3>Samira Benali</h3>
-                    <p>Responsable des actions terrain</p>                    
+                    <p>Responsable des actions terrain</p>
                 </div>
                 <div class="aboutPictureAndName displayDesktop">
                     <img src="./pictures/Julien M.png" alt="">
@@ -281,7 +293,7 @@
             <a href=""><img src="./../V3/pictures/iconHeader-Footer/instagram(1).png" alt=""></a>
             <a href=""><img src="./../V3/pictures/iconHeader-Footer/facebook(1).png" alt=""></a>
         </div>
-        <div class="displayResponsivMobile">...</div>        
+        <div class="displayResponsivMobile">...</div>
         <div class="">
             <a href="">
                 <h4>Faire un don</h4>

@@ -107,6 +107,9 @@
         font-weight: 800;
     }
 
+    .lineMissions {
+        width: 25%;       
+    }
 }
 
 @media (min-width: 511px) and (max-width: 1080px) {
@@ -128,8 +131,9 @@
         display: flex;
         justify-content: space-between;
     }
-
-    .menuBurger {
+    
+    .menuBurger,
+    .menuBurgerCross {
         height: 1.6em;
     }
 }

@@ -82,7 +82,7 @@ span {
     height: 100%;
     background-repeat: no-repeat;
     background-position: top 6em right 2%;
-    background-size: 45em;
+    background-size: 45em;    
 }
 
 .backGroundCard {
@@ -176,8 +176,39 @@ header img {
 }
 
 header img {
-    height: 3.2em;
+    height: 2.8em;
+    cursor: pointer;
 }
+
+.menuBurgerCross {
+    position: absolute;
+    right: 0px;
+    display: none;    
+}
+
+.hiddenList {
+    z-index: 9;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+    background: #F8F5EE;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+    list-style-type: none;
+    padding: 0em;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-110%);
+    transition: transform 1s ease;
+}
+
+.hiddenList div {
+    margin-left: 1.2em;    
+}
+ .hiddenList li {
+    margin: 2em 0;
+ }
 
 /***HERO-SECTION***/
 
@@ -237,7 +268,7 @@ header img {
 }
 
 .btnReserch {
-    margin: 0.6em 0.8em;
+    margin: 0.6em 0em;
     border-radius: 0.8em;
     font-size: 2.4em;
     padding: 0.6em 0.8em;

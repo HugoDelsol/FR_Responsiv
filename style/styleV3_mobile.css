@@ -7,7 +7,7 @@
 
     .backGroundPicture {
         background-position: top 14em right -6em;
-        background-size: 26em;
+        background-size: 24em;
         opacity: 0.9;
     }
 
@@ -35,12 +35,9 @@
         margin: 0.2em 0.8em;
     }
 
-    .menuBurger {
+    .menuBurger,
+    .menuBurgerCross {
         height: 1.2em;        
-    }
-
-    .iconHeaderResponsiv {
-        height: 2.8em;
     }
 
     .btnPrimary {
@@ -48,7 +45,6 @@
         padding: 0.6em 1.2em;
         font-weight: 400;
         font-size: 16px;
-
     }
 
     /***********************************************/
@@ -111,9 +107,10 @@
     }
 
     .btnReserch {
+        
         margin: 2em 0.8em;
         border-radius: 0.6em;
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: center;
         width: 100% ;
     }
@@ -280,18 +277,3 @@
     }
 }
 
-@media all and (max-width: 375px) {
-
-    .backGroundPicture {
-        background-position: top 18em right -6.6em;
-        background-size: 24em;
-    }
-
-    .heroSection h1 {
-        font-size: 1.8em;
-        font-weight: 900;
-    }
-
-
-
-}
