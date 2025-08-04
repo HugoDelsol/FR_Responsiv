@@ -51,7 +51,7 @@
 
     .heroSection {
         padding-top: 4em;
-        margin: 0 0.8em;
+        margin: 1.4em;
     }
 
     .heroSection h1 {
@@ -89,7 +89,7 @@
 
     .borderStat {
         border: none;
-        padding: 0.8em;
+        padding-left: 24px;
     }
 
     .marginResponsiv {
