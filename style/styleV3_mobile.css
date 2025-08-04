@@ -55,22 +55,22 @@
     }
 
     .heroSection h1 {
-        font-size: 1.8em;
+        font-size: 1.86em;
         font-weight: 900;
     }
 
     .heroSection .title h2 span {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 400;        
     }
 
     .heroSection .title h2 {
-        line-height: 16px;
+        line-height: 18px;
     }
 
     .heroSection .title h3 {
         margin-top:1em;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 100;
         width: 90%;
     }
@@ -107,7 +107,7 @@
     }
 
     .btnReserch {
-        
+        padding: 0.8em 0;
         margin: 2em 0.8em;
         border-radius: 0.6em;
         font-size: 1.2em;
